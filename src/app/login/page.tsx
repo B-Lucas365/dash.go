@@ -1,12 +1,13 @@
 "use client"
+import { Input } from '../../components/Input';
 import { Container, Form } from './styles'
-import { TextInput } from '@mantine/core';
 
 function Login () {
     return (
         <Container>
             <Form>
-                <TextInput label="Email" radius={6} />
+                <Input label='Email'/>
+                <Input label='Password'/>
             </Form>
         </Container>
     )
