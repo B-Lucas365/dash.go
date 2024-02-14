@@ -13,11 +13,22 @@ export const Container = styled.div`
 export const Form = styled.form`
     background: var(--color-dark);
     border-radius: .5rem;
-    padding: 1rem;
-`
+    padding: 2rem;
 
-export const Label = styled.label`
-    font-size: 1rem;
-    font-weight: 500;
+    .mantine-TextInput-input {
+        background: var(--bg-dark);
+        border: 1px solid var(--color-pink);
+        color: var(--text-color);
+        width: 18.6rem;
+
+        &:focus {
+            border: 1px solid var(--color-pink);
+            background: transparent;
+        }
+    }
+
+    .mantine-TextInput-label {
+        color: var(--text-color);
+    }
 `
 

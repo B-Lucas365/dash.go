@@ -1,12 +1,12 @@
-import { Input } from '@mantine/core'
-import { Container, Form, Label } from './styles'
+"use client"
+import { Container, Form } from './styles'
+import { TextInput } from '@mantine/core';
 
 function Login () {
     return (
         <Container>
             <Form>
-                <Label>E-mail</Label>
-                <Input variant="filled"/>
+                <TextInput label="Email" radius={6} />
             </Form>
         </Container>
     )

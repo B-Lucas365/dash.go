@@ -1,5 +1,3 @@
-import { Flex } from "@mantine/core";
-
 export default function Home() {
   return (
     <>
