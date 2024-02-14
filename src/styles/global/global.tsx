@@ -18,7 +18,7 @@ const Globals = createGlobalStyle`
 
     body {
         
-
+        background-color: #252525;
         color: #fff;
     }
 
