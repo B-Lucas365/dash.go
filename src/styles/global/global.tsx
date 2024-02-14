@@ -2,10 +2,6 @@
 import { createGlobalStyle } from "styled-components";
 
 const Globals = createGlobalStyle`
-    :root {
-        --bg: #252525;
-    }
-
     * {
         margin: 0;
         padding: 0;
@@ -17,7 +13,6 @@ const Globals = createGlobalStyle`
     }
 
     body {
-        
         background-color: #252525;
         color: #fff;
     }
