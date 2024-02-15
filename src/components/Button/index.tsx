@@ -5,12 +5,13 @@ import { ButtonElement } from "./styles"
 
 interface ButtonProps {
     children: string,
+    variant: string
 }
 
-export const Button = ({ children }: ButtonProps) => {
+export const Button = ({ children, variant }: ButtonProps) => {
     return (
         <ButtonElement>
             {children} 
         </ButtonElement>
     );
-};
+}; 
