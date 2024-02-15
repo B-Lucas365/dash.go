@@ -10,7 +10,7 @@ function Login () {
             <Form>
                 <Input label='E-mail' required={true} type='email'/>
                 <Input label='Senha' required={true} type='password'/>
-                <Button children='Entrar' />
+                <Button text='Entrar' />
             </Form>
         </Container>
     )
