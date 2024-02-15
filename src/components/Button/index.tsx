@@ -4,13 +4,13 @@ import React from 'react';
 import { ButtonElement } from "./styles"
 
 interface ButtonProps {
-    children: string,
+    text: string,
 }
 
-export const Button = ({ children }: ButtonProps) => {
+export const Button = ({ text }: ButtonProps) => {
     return (
         <ButtonElement>
-            {children} 
+            {text}
         </ButtonElement>
     );
 };
