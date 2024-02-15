@@ -1,14 +1,16 @@
 "use client"
 
-import {TextInput } from "./styles"
+import { TextInput } from "./styles"
 
 interface InputProps {
     label: string,
-    placeholder?: string
+    placeholder?: string,
+    required: boolean,
+    type: string
 }
 
-export const Input = ({label, placeholder}: InputProps) => {
+export const Input = ({ label, placeholder, required, type }: InputProps) => {
     return (
-        <TextInput label={label} />
+        <TextInput label={label} required={required} type={type}/>
     )
 }

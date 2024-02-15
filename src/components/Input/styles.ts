@@ -8,6 +8,7 @@ export const TextInput = styled(InputMantine)`
         border: 1px solid var(--color-pink);
         color: var(--text-color);
         width: 18.6rem;
+        height: 3rem;
 
         &:focus {
             border: 1px solid var(--color-pink);
@@ -17,5 +18,9 @@ export const TextInput = styled(InputMantine)`
 
     .mantine-TextInput-label {
         color: var(--text-color);
+    }
+
+    .mantine-TextInput-required {
+        color: var(--color-pink);
     }
 `
