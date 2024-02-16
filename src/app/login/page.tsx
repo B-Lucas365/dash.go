@@ -8,9 +8,19 @@ function Login () {
     return (
         <Container>
             <Form>
-                <Input label='E-mail' required={true} type='email'/>
-                <Input label='Senha' required={true} type='password'/>
-                <Button text='Entrar' />
+                <Input 
+                    label='E-mail' 
+                    required={true} 
+                    type='email'
+                />
+
+                <Input 
+                    label='Senha' 
+                    required={true} 
+                    type='password'
+                />
+                
+                <Button text='Entrar'/>
             </Form>
         </Container>
     )
