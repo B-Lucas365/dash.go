@@ -9,6 +9,7 @@ const Globals = createGlobalStyle`
         --dark-color-pink: #9E2B63; 
         --color-purple: #9F7AEA; 
         --text-color: #EEEEF2;
+        --text-color-dark: #797D9A;
     }
 
     * {

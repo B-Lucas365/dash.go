@@ -1,8 +1,9 @@
 'use client'
 
 import { Input } from "@/components/Input";
-import { Container, Form } from "./styles";
+import { Form } from "./styles";
 import { Button } from "@/components/Button";
+import Container from "@/components/Container";
 
 export default function Home() {
   return (
