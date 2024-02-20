@@ -23,7 +23,7 @@ const Globals = createGlobalStyle`
     }
 
     body {
-        background-color: #252525;
+        background-color: var(--bg-dark);
         color: #fff;
     }
 
