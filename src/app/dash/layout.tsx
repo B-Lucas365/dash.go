@@ -1,5 +1,3 @@
-"use client"
-
 import Container from "@/components/Container"
 import { SideBar } from "@/components/SideBar"
 
@@ -9,7 +7,7 @@ export default function DashboardLayout({
     children: React.ReactNode
   }) {
     return (
-        <Container>
+        <Container direction="row">
             <SideBar />
             {children}
         </Container>
